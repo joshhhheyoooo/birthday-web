@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Happy Birthday, My Love ❤️</title>
+    <title>Happy Birthday, Mi Babiii ❤️</title>
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Canvas Confetti -->
@@ -20,7 +20,7 @@
         @keyframes floatHeart { 0% { transform: translateY(100vh) rotate(0deg); } 100% { transform: translateY(-100vh) rotate(360deg); } }
         
         /* Hero Background */
-        .hero-bg { background: linear-gradient(135deg, rgba(225, 29, 72, 0.85), rgba(192, 38, 211, 0.75)), url('https://picsum.photos/id/1015/2000/1200') center/cover no-repeat; }
+        .hero-bg { background: linear-gradient(135deg, rgba(225, 29, 72, 0.85), rgba(192, 38, 211, 0.75)), url('background img.jpg') center/cover no-repeat; }
         
         /* Card Hover */
         .memory-card { transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1); }
@@ -38,6 +38,7 @@
         ::-webkit-scrollbar { width: 10px; }
         ::-webkit-scrollbar-track { background: #f1f1f1; }
         ::-webkit-scrollbar-thumb { background: #e11d48; border-radius: 5px; }
+
     </style>
 </head>
 <body class="bg-gradient-to-br from-pink-50 via-purple-50 to-rose-50 text-gray-800 overflow-x-hidden">
@@ -71,7 +72,7 @@
                 <p class="text-xs font-bold tracking-widest text-rose-600">TODAY IS THE DAY ✨</p>
             </div>
             <h1 class="heading-font text-6xl md:text-8xl font-bold text-white leading-none tracking-tighter mb-6 drop-shadow-2xl">
-                Happy Birthday,<br><span class="text-amber-200">My Love</span>
+                Happy Birthday,<br><span class="text-amber-200">Mi Babi</span>
             </h1>
             <p class="text-xl md:text-2xl text-white/90 max-w-lg mx-auto font-light mb-10">You make every day feel like magic.<br>Today the whole universe is celebrating you.</p>
             <div class="flex flex-col sm:flex-row gap-4 justify-center">
@@ -83,10 +84,7 @@
                 </button>
             </div>
         </div>
-        <div class="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-white/70 animate-bounce">
-            <p class="text-[10px] tracking-widest uppercase">Scroll</p>
-            <div class="w-5 h-8 border-2 border-white/70 rounded-full flex justify-center"><div class="w-1 h-2 bg-white rounded-full mt-1"></div></div>
-        </div>
+
     </section>
 
     <!-- MEMORIES SECTION -->
@@ -95,38 +93,38 @@
             <div class="text-center mb-16">
                 <div class="inline-block px-6 py-2 bg-rose-100 text-rose-600 rounded-full text-xs font-bold tracking-widest mb-4">OUR STORY</div>
                 <h2 class="heading-font text-5xl font-bold text-gray-900">Beautiful Moments</h2>
-                <p class="mt-4 text-lg text-gray-600">Every photo holds a piece of our forever</p>
+                <p class="mt-4 text-lg text-gray-600">Every photo holds a piece of our memories babiii</p>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <div onclick="openModal(1)" class="memory-card group cursor-pointer bg-white rounded-2xl overflow-hidden shadow-lg border border-gray-100">
                     <div class="relative h-72 overflow-hidden">
-                        <img src="https://picsum.photos/id/1015/800/800" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" alt="Memory 1">
+                        <img src="img1.jpg" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" alt="Memory 1">
                         <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
                             <div class="text-white transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
-                                <p class="font-bold text-xl">Our first date ☕</p>
-                                <p class="text-sm opacity-90">March 2024 • Manila</p>
+                                <p class="font-bold text-xl">Our first encounter</p>
+                                <p class="text-sm opacity-90">January 2026 •</p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div onclick="openModal(2)" class="memory-card group cursor-pointer bg-white rounded-2xl overflow-hidden shadow-lg border border-gray-100">
                     <div class="relative h-72 overflow-hidden">
-                        <img src="https://picsum.photos/id/201/800/800" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" alt="Memory 2">
+                        <img src="img2.jpg" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" alt="Memory 2">
                         <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
                             <div class="text-white transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
-                                <p class="font-bold text-xl">Sunset by the bay 🌅</p>
-                                <p class="text-sm opacity-90">June 2024 • Tagaytay</p>
+                                <p class="font-bold text-xl">Surprise confession</p>
+                                <p class="text-sm opacity-90">February 2026 •</p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div onclick="openModal(3)" class="memory-card group cursor-pointer bg-white rounded-2xl overflow-hidden shadow-lg border border-gray-100">
                     <div class="relative h-72 overflow-hidden">
-                        <img src="https://picsum.photos/id/301/800/800" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" alt="Memory 3">
+                        <img src="img3.jpg" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" alt="Memory 3">
                         <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
                             <div class="text-white transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
-                                <p class="font-bold text-xl">Surprise dinner 💃</p>
-                                <p class="text-sm opacity-90">September 2024 • QC</p>
+                                <p class="font-bold text-xl">Our first motmot </p>
+                                <p class="text-sm opacity-90">March 2026 •</p>
                             </div>
                         </div>
                     </div>
@@ -146,7 +144,7 @@
                 <!-- Video Player -->
                 <div class="bg-white p-4 rounded-3xl shadow-2xl transform hover:-translate-y-2 transition-transform duration-300">
                     <div class="aspect-video bg-black rounded-2xl overflow-hidden relative group">
-                        <iframe class="w-full h-full" src="https://www.youtube.com/embed/jfKfPfyJRdk?si=playlist" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <iframe class="w-full h-full" src="68c6ba31-f2d4-44d5-8e02-60d753bda3df.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </div>
                 </div>
                 <!-- Music Player -->
@@ -173,8 +171,8 @@
                         </button>
                     </div>
                     <audio id="bg-music" loop>
-                        <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
-                        Your browser does not support the audio element.
+                        <source src="keshi - Soft Spot (Lyrics).mp3" type="audio/mpeg">
+                        
                     </audio>
                     <div class="w-full bg-gray-200 rounded-full h-1.5 mt-2">
                         <div class="bg-rose-500 h-1.5 rounded-full" style="width: 45%"></div>
@@ -195,14 +193,14 @@
                         <h2 class="heading-font text-4xl font-bold text-gray-900 mt-4">My Letter to You</h2>
                     </div>
                     <div class="love-letter text-lg leading-relaxed text-gray-700 space-y-6">
-                        <p>My dearest [Her Name],</p>
-                        <p>On your special day, I want you to know that you are the reason my heart beats a little faster every morning. You turn ordinary days into fairy tales with your smile, your laugh, and the way you look at me like I'm the only person in the world.</p>
-                        <p>Thank you for every late-night talk, every adventure, every hug that makes everything okay. You have made me the happiest man alive, and I promise to spend every birthday from now on making sure you feel as loved as you deserve.</p>
-                        <p>Today, the stars, the moon, and the entire universe are throwing a party just for you. But my favorite part is that I get to celebrate you forever.</p>
-                        <p class="font-bold text-rose-600 text-xl">Happy Birthday, my everything. I love you more than words could ever say.</p>
+                        <p>Mi babiii,</p>
+                        <p>On your special day, I want you to know that you are the reason my heart beats a little faster every morning. You turn ordinary days into fairy tales with your energetic aura, your laugh, and the way you love me like I'm the only person in the world.</p>
+                        <p>Thank you babi for every late-night talk, every ml grind, every virtual hug that makes everything okay. You have made me the happiest man alive, and I promise to spend every birthday from now on making sure you feel as loved as you deserve.</p>
+                        <p>Today babi, the stars, the moon, and the entire universe are throwing a party just for you. But my favorite part is that I get to celebrate with you.</p>
+                        <p class="font-bold text-rose-600 text-xl">Happy Birthday mi Nashy, my everything. I love you more than words could ever say.</p>
                         <div class="text-right mt-8">
                             <p class="font-bold text-2xl text-gray-900">Forever yours,</p>
-                            <p class="text-rose-600 font-bold text-3xl">Joshua ❤️</p>
+                            <p class="text-rose-600 font-bold text-3xl">Louie ❤️</p>
                         </div>
                     </div>
                 </div>
@@ -248,7 +246,7 @@
                 </div>
             </div>
             <div id="wish-message" class="hidden mt-8 text-3xl font-light text-rose-500 animate-pulse">
-                Wish granted, my love! ✨<br>
+                May ur Wish be granted, mi babi ✨<br>
                 <span class="text-lg text-gray-500 block mt-2">You deserve the entire world today and every day.</span>
             </div>
             <button onclick="triggerConfetti()" class="mt-12 px-10 py-4 bg-gradient-to-r from-rose-500 to-purple-600 text-white text-lg font-semibold rounded-full shadow-2xl hover:shadow-pink-500/50 transition-all active:scale-95">
@@ -263,9 +261,9 @@
             <div class="flex justify-center gap-6 text-4xl mb-8">❤️ 💖 💗</div>
             <p class="text-gray-400 text-sm max-w-sm mx-auto">
                 This website was created with so much love just for you.<br>
-                You are my greatest blessing.
+                You are my greatest blessing babi.
             </p>
-            <div class="mt-10 text-xs text-gray-500">Made with ❤️ by Joshua • March 2026</div>
+            <div class="mt-10 text-xs text-gray-500">Made with ❤️ by Louie • March 2026</div>
         </div>
     </footer>
 
@@ -300,9 +298,9 @@
 
         // --- 2. Modal Logic ---
         const modalData = {
-            1: { title: "Our first date ☕", img: "https://picsum.photos/id/1015/800/800", desc: "That nervous coffee date that changed everything." },
-            2: { title: "Sunset by the bay 🌅", img: "https://picsum.photos/id/201/800/800", desc: "Watching the sun go down with you is my favorite view." },
-            3: { title: "Surprise dinner 💃", img: "https://picsum.photos/id/301/800/800", desc: "You looked absolutely stunning that night." }
+            1: { title: "Our first encounter", img: "img7.jpg", desc: "First encounter that started with a simple question hshsh" },
+            2: { title: "Surprise confession", img: "img8.jpg", desc: "The best yes i've ever heard" },
+            3: { title: "Our first motmot", img: "img9.jpg", desc: "The start of our little forever babii" }
         };
 
         function openModal(id) {
